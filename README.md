@@ -27,6 +27,8 @@ Welcome to my daily Python learning and practice journey! This repository docume
 | **Day 17** | 29/09/2026 | Advanced Operators (Bitwise, Identity, Membership, Short-Circuit Logic) | `Bitwise_operator.py`, `Bitwise_operator2.py`, `Identity_operator.py`, `Membership_operator.py`, `Logical_operators2.py` |
 | **Day 18** | 30/09/2026 | Conditional Statements & Flow Control (`if`, `if-else`) | `Conditional_statement.py`, `if_else_condition.py` |
 | **Day 19** | 01/10/2026 | Multi-Way Decision, Nested Conditions & Pattern Matching (`match-case`) | `if_elif_else.py`, `nested_if.py`, `Match_case.py` |
+| **Day 20** | 05/10/2026 | Conditional Expressions, `range()` Sequences & `for` Loops | `condition_expression.py`, `Range_example.py`, `for_loops.py` |
+
 
 
 ---
@@ -207,6 +209,17 @@ Welcome to my daily Python learning and practice journey! This repository docume
 * > Structural Pattern Matching: Modern Python 3.10+ `match - case` Syntax (`Match_case.py`)
 * > Default / Fallback Matching with the Wildcard `case _` Pattern (`Match_case.py`)
 
+---
+
+### Day 20: Conditional Expressions, 'range()' Sequences & 'for' Loops (05/10/2026)
+* > Inline Conditional Expression / Ternary Operator (`n**2 if n%2==0 else n**3`) (`condition_expression.py`)
+* > Sequence Generator `range(start, stop, step)` and Object Representation (`Range_example.py`)
+* > Single-Argument `range(stop)` and Counter Iteration (`Range_example.py`)
+* > Materializing `range` into Collections: `list()`, `tuple()`, `set()`, and String Literal `str()` (`Range_example.py`)
+* > Boundary Handling with Negative Arguments & Non-Unit Steps (`Range_example.py`)
+* > Definite Sequence Iteration with `for-in` Loop (`for_loops.py`)
+* > Output Formatting with Custom Separator `sep="/"` and Trailing Space `end=" "` (`for_loops.py`)
+
 
 ---
 
@@ -242,4 +255,9 @@ python String_methods.py
 
 # Example 6: Run All Data Types Practice
 python ALLdatatypesPractice.py
+
+# Example 7: Run Conditional Expressions & Loops practice
+python condition_expression.py
+python Range_example.py
+python for_loops.py
 ```
