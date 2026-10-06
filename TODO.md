@@ -6,10 +6,10 @@ This document tracks the completed practice days, upcoming core Python learning 
 
 ## 📊 Quick Progress Summary
 
-- **Completed Days:** 19 / 19 Practiced Days
-- **Total Practiced Scripts:** 39 Python Modules
-- **Current Topic Milestone:** Multi-Way Decision Branching (`if-elif-else`), Nested Conditions (`nested_if`), Pattern Matching (`match-case`)
-- **Next Topic Milestone:** Iteration & Loops (`while` loops, `for` loops & `range()`)
+- **Completed Days:** 21 / 21 Practiced Days
+- **Total Practiced Scripts:** 49 Python Modules (43 Core Modules + 6 Practice Deep Dive Modules)
+- **Current Topic Milestone:** While Loops (`while_loop.py`), Stepped Sequence Traversals (`for_loops.py`), and Debugger Execution Tracing (`Practice/`)
+- **Next Topic Milestone:** Loop Control Statements (`break`, `continue`, `pass`, loop `else`), Iterating Over Multi-Dimensional Data
 
 ---
 
@@ -91,6 +91,21 @@ This document tracks the completed practice days, upcoming core Python learning 
   - [nested_if.py](file:///f:/CodePlayground/Python%20Workspace/nested_if.py) — Nested conditional statements, multi-stage voter eligibility check (citizenship and age).
   - [Match_case.py](file:///f:/CodePlayground/Python%20Workspace/Match_case.py) — Python 3.10+ `match - case` structural pattern matching with wildcard `case _` fallback.
 
+- [x] **Day 20 (05/10/2026): Conditional Expressions, 'range()' Sequences & 'for' Loops**
+  - [condition_expression.py](file:///f:/CodePlayground/Python%20Workspace/condition_expression.py) — One-line ternary conditional expression (`x if condition else y`).
+  - [Range_example.py](file:///f:/CodePlayground/Python%20Workspace/Range_example.py) — Lazy sequence generation with `range(start, stop, step)`, conversions to collections (`list`, `tuple`, `set`, `str`), negative step/bound behaviors.
+  - [for_loops.py](file:///f:/CodePlayground/Python%20Workspace/for_loops.py) — Sequence traversal with `for` loop and custom `sep` and `end` print parameters.
+
+- [x] **Day 21 (06/10/2026): 'while' Loops, Stepped Sequence Traversals & Execution Tracing**
+  - [while_loop.py](file:///f:/CodePlayground/Python%20Workspace/while_loop.py) — Condition-controlled `while` loop, unit counter increments, stepped progressions (`+3`), and negative bound iteration.
+  - [for_loops.py](file:///f:/CodePlayground/Python%20Workspace/for_loops.py) — List iteration, fixed repetition via `range(1, 6, 1)`, negative stepped indexing (`range(-1, -8, -2)`), and immutable tuple traversal.
+  - [practice01.py](file:///f:/CodePlayground/Python%20Workspace/Practice/practice01.py) — Execution flow tracing with python debugger (`debugpy`), breakpoint configuration, and loop flow.
+  - [practice02.py](file:///f:/CodePlayground/Python%20Workspace/Practice/practice02.py) — Dictionary record CRUD, list field mutation, conditional expressions, and deletion.
+  - [practice03.py](file:///f:/CodePlayground/Python%20Workspace/Practice/practice03.py) — In-place list methods (`append`, `insert`, `pop`, `reverse`, `sort`) vs new collections.
+  - [practice 04.py](file:///f:/CodePlayground/Python%20Workspace/Practice/practice%2004.py) — Set operations, mathematical relations (`isdisjoint`, `issubset`, `issuperset`, `union`, `intersection`).
+  - [practice05.py](file:///f:/CodePlayground/Python%20Workspace/Practice/practice05.py) — Nested dictionary manipulation, salary statistics (`max`, `min`), and decision branching.
+  - [practice07.py](file:///f:/CodePlayground/Python%20Workspace/Practice/practice07.py) — Multi-level nested dictionary records, safe `.get()` lookup, `.popitem()`, and `.clear()`.
+
 
 ---
 
@@ -100,8 +115,8 @@ This document tracks the completed practice days, upcoming core Python learning 
 - [x] **Multi-Way Decision Making:** `if - elif - else` ladders, grade calculators, boundary testing.
 - [x] **Nested Conditional Statements:** Inner `if` blocks, multi-tier access validation, nested boundaries.
 - [x] **Structural Pattern Matching:** Modern Python 3.10+ `match - case` statements, wildcard fallback.
-- [ ] **While Loops:** Conditional looping, counter increments, infinite loops, and sentinel-controlled loops.
-- [ ] **For Loops & Ranges:** `for item in sequence`, `range(start, stop, step)`, reverse loops.
+- [x] **For Loops & Ranges:** `for item in sequence`, `range(start, stop, step)`, reverse loops.
+- [x] **While Loops:** Conditional looping, counter increments, stepped increments, and negative bound traversal.
 - [ ] **Loop Control Statements:** `break` (early exit), `continue` (skip iteration), `pass` (placeholder), and `else` clause in loops.
 - [ ] **Iterating Over Multi-Dimensional Data:** Looping over nested lists, dictionary `.items()`, `enumerate()`, `zip()`.
 

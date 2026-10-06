@@ -1,0 +1,53 @@
+functions 
+set of block of code which is used to reduce the redudency and it can be call to perfor m the specific work many times
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+* we use the def key word to define the fuctions 
+ex 
+    def greet():
+        print("hello good morning")
+         
+         # now it is defined if we run this it wont execute
+         # if we want to run this we ahve to call teh function print()
+
+    greet()
+
+        #NOW it will gives the output
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+* function parameter : - parameters are the variables used to pass the data into the function
+
+ex :
+    def marruge(boy,girl):
+        print(f"{boy} likes a {girl}")
+
+    marruge("raj","rani") #position arguments 
+    marruge(boy="raj",girl="rani") #keyword argument
+    #output 
+        raj likes a rani        
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+function mul(n):
+    for i in range(1,11):
+        print(f"{n}X{i} = {n*i}")
+
+mul(3)
+
+output is 
+
+tables of 3
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+local variables and global variables
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+  

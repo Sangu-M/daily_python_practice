@@ -28,8 +28,7 @@ Welcome to my daily Python learning and practice journey! This repository docume
 | **Day 18** | 30/09/2026 | Conditional Statements & Flow Control (`if`, `if-else`) | `Conditional_statement.py`, `if_else_condition.py` |
 | **Day 19** | 01/10/2026 | Multi-Way Decision, Nested Conditions & Pattern Matching (`match-case`) | `if_elif_else.py`, `nested_if.py`, `Match_case.py` |
 | **Day 20** | 05/10/2026 | Conditional Expressions, `range()` Sequences & `for` Loops | `condition_expression.py`, `Range_example.py`, `for_loops.py` |
-
-
+| **Day 21** | 06/10/2026 | `while` Loops, Stepped Sequence Traversals & Execution Tracing | `while_loop.py`, `for_loops.py`, `Practice/` |
 
 ---
 
@@ -220,6 +219,18 @@ Welcome to my daily Python learning and practice journey! This repository docume
 * > Definite Sequence Iteration with `for-in` Loop (`for_loops.py`)
 * > Output Formatting with Custom Separator `sep="/"` and Trailing Space `end=" "` (`for_loops.py`)
 
+---
+
+### Day 21: 'while' Loops, Stepped Sequence Traversals & Execution Tracing (06/10/2026)
+* > Condition-Controlled Iteration & Unit Counter Increments (`while i < 6:`) (`while_loop.py`)
+* > Stepped Progression in `while` Loops with Custom Increments (`e += 3`) (`while_loop.py`)
+* > Negative Initial Bound Iteration Approaching Upper Negative Threshold (`a = -14; while a < -1:`) (`while_loop.py`)
+* > Sequence Traversal Over Lists with Space Termination (`for i in l:`) (`for_loops.py`)
+* > Definite Count Repetition Using `range(1, 6, 1)` (`for_loops.py`)
+* > Negative Index Stepped Traversal (`range(-1, -8, -2)`) on Lists (`for_loops.py`)
+* > Iterating Over Immutable Tuples (`t = (11, 22, 33)`) (`for_loops.py`)
+* > Program Tracing & Python Debugger Configuration (`debugpy`, breakpoints, controls) (`Practice/practice01.py`)
+* > Real-World Entity CRUD & In-Place List/Set/Dictionary Manipulations (`Practice/`)
 
 ---
 
@@ -260,4 +271,8 @@ python ALLdatatypesPractice.py
 python condition_expression.py
 python Range_example.py
 python for_loops.py
+
+# Example 8: Run While Loops & Program Tracing practice
+python while_loop.py
+python Practice/practice01.py
 ```
