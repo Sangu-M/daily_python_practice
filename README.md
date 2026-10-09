@@ -29,6 +29,7 @@ Welcome to my daily Python learning and practice journey! This repository docume
 | **Day 19** | 01/10/2026 | Multi-Way Decision, Nested Conditions & Pattern Matching (`match-case`) | `if_elif_else.py`, `nested_if.py`, `Match_case.py` |
 | **Day 20** | 05/10/2026 | Conditional Expressions, `range()` Sequences & `for` Loops | `condition_expression.py`, `Range_example.py`, `for_loops.py` |
 | **Day 21** | 06/10/2026 | `while` Loops, Stepped Sequence Traversals & Execution Tracing | `while_loop.py`, `for_loops.py`, `Practice/` |
+| **Day 22** | 09/10/2026 | Loop Control Statements (`break`, `continue`, `pass`) | `break.py`, `continue.py`, `pass.py` |
 
 ---
 
@@ -234,6 +235,17 @@ Welcome to my daily Python learning and practice journey! This repository docume
 
 ---
 
+### Day 22: Loop Control Statements ('break', 'continue', 'pass') (09/10/2026)
+* > Premature Loop Termination on Condition with `break` (`break.py`)
+* > Sentinel / Threshold Break Condition in Collections (`break.py`)
+* > Skipping Unwanted Multiples Using `continue` and Logical `or` (`continue.py`)
+* > Data Filtering via `continue` to Ignore Negative Values in Collections (`continue.py`)
+* > Prefix-Based Filtering Using `str.startswith()` and `continue` (`continue.py`)
+* > Character Screening / Substring Filtering via Membership `in` and `continue` (`continue.py`)
+* > Syntactic Null Operation Placeholder with `pass` in Loop Bodies (`pass.py`)
+
+---
+
 ## 📋 Progress Tracking & Practice Roadmap
 
 For the complete daily tracker, upcoming curriculum milestones, and practicing checklist, see [TODO.md](file:///f:/CodePlayground/Python%20Workspace/TODO.md).
@@ -275,4 +287,9 @@ python for_loops.py
 # Example 8: Run While Loops & Program Tracing practice
 python while_loop.py
 python Practice/practice01.py
+
+# Example 9: Run Loop Control Statements practice
+python break.py
+python continue.py
+python pass.py
 ```
