@@ -6,10 +6,10 @@ This document tracks the completed practice days, upcoming core Python learning 
 
 ## 📊 Quick Progress Summary
 
-- **Completed Days:** 22 / 22 Practiced Days
-- **Total Practiced Scripts:** 52 Python Modules (46 Core Modules + 6 Practice Deep Dive Modules)
-- **Current Topic Milestone:** Loop Control Statements (`break.py`, `continue.py`, `pass.py`)
-- **Next Topic Milestone:** Nested Loops (`nestedForLoop.py`), Loop `else` Clauses, Iterating Over Multi-Dimensional Data
+- **Completed Days:** 35 / 35 Practiced Days
+- **Total Practiced Scripts:** 70 Python Modules (64 Core Modules + 6 Practice Deep Dive Modules)
+- **Current Topic Milestone:** Variable Scope & Namespaces (`local_variable.py`, `globel_variable.py`)
+- **Next Topic Milestone:** Lambda Functions & Anonymous Expressions, Higher-Order Functions (`map`, `filter`, `reduce`), List & Dict Comprehensions
 
 ---
 
@@ -111,6 +111,49 @@ This document tracks the completed practice days, upcoming core Python learning 
   - [continue.py](file:///f:/CodePlayground/Python%20Workspace/continue.py) — Skipping iterations with `continue` for numeric divisibility filters (`or`), negative number bypass, string prefix filtering (`str.startswith()`), and substring containment checks (`in`).
   - [pass.py](file:///f:/CodePlayground/Python%20Workspace/pass.py) — Null statement `pass` acting as a syntactic placeholder in loop bodies to prevent indentation errors during prototyping.
 
+- [x] **Day 23 (10/10/2026): Nested 'for' Loops & Combinations**
+  - [nestedForLoop.py](file:///f:/CodePlayground/Python%20Workspace/nestedForLoop.py) — Cartesian product generation, multiplication tables with `range()`, and tokenized string capitalization.
+
+- [x] **Day 24 (11/10/2026): The 'for-else' Loop Construct & Search Target Validation**
+  - [forelseBlock.py](file:///f:/CodePlayground/Python%20Workspace/forelseBlock.py) — Flagless linear search verification using the `else:` suite on clean loop termination and short-circuiting with `break`.
+
+- [x] **Day 25 (12/10/2026): Multi-Dimensional Lists (2D Lists)**
+  - [nested_List.py](file:///f:/CodePlayground/Python%20Workspace/nested_List.py) — Multi-attribute record filtering on 2D lists and reverse row traversal using negative-step `range(2, -1, -1)`.
+
+- [x] **Day 26 (13/10/2026): Multi-Dimensional Dictionaries**
+  - [Nested_Dictionary.py](file:///f:/CodePlayground/Python%20Workspace/Nested_Dictionary.py) — Hierarchical key-value records, `.keys()`, `.values()`, field projections, and compound condition attribute filtering.
+
+- [x] **Day 27 (14/10/2026): Columnar Data Layout (Dictionary Containing Lists)**
+  - [Dictionary_list.py](file:///f:/CodePlayground/Python%20Workspace/Dictionary_list.py) — Columnar data representations, cross-column indexing, dynamic length bounds `range(len())`, and conditional record queries.
+
+- [x] **Day 28 (15/10/2026): Row-Oriented Records (List of Dictionaries)**
+  - [ListInsideDict.py](file:///f:/CodePlayground/Python%20Workspace/ListInsideDict.py) — Tabular rows representation, dictionary attribute extraction across records, reverse index stepping, and non-destructive reverse slicing `[::-1]`.
+
+- [x] **Day 29 (16/10/2026): Memory Referencing & Object Copying Semantics**
+  - [Generalcopy.py](file:///f:/CodePlayground/Python%20Workspace/Generalcopy.py) — Variable aliasing / reference assignment (`l2 = l1`) and shared mutation side effects.
+  - [Shallowcopy.py](file:///f:/CodePlayground/Python%20Workspace/Shallowcopy.py) — Shallow copying with `copy.copy()`, outer list independence, and shared nested reference limitations.
+  - [Deepcopy.py](file:///f:/CodePlayground/Python%20Workspace/Deepcopy.py) — Full recursive cloning via `copy.deepcopy()` with complete bidirectional isolation across nested sub-objects.
+
+- [x] **Day 30 (17/10/2026): Sequence Packing & Extended Unpacking**
+  - [packin.py](file:///f:/CodePlayground/Python%20Workspace/packin.py) — Explicit manual collection packing vs implicit automatic tuple packing.
+  - [unpacking.py](file:///f:/CodePlayground/Python%20Workspace/unpacking.py) — 1-to-1 sequence unpacking and extended iterable unpacking using the asterisk `*` operator (leading, middle, and trailing).
+
+- [x] **Day 31 (18/10/2026): Function Definition, Invocation & Execution Flow**
+  - [Function1.py](file:///f:/CodePlayground/Python%20Workspace/Function1.py) — `def` syntax, `pass` placeholder, function objects vs function calls, `return` values, and unreachable dead code after `return`.
+
+- [x] **Day 32 (19/10/2026): Positional Arguments & Function Redefining**
+  - [function3.py](file:///f:/CodePlayground/Python%20Workspace/function3.py) — Mandatory positional argument binding, `TypeError` on missing arguments, and dynamic namespace redefinition (overwriting prior functions).
+
+- [x] **Day 33 (20/10/2026): Arithmetic Functions & Compound Computations**
+  - [function4..py](file:///f:/CodePlayground/Python%20Workspace/function4..py) — Pure mathematical functions with return values, negative delta handling, and compound multi-calculation routines.
+
+- [x] **Day 34 (21/10/2026): Positional vs Keyword Arguments, '*args' & '**kwargs'**
+  - [positionalArgument.py](file:///f:/CodePlayground/Python%20Workspace/positionalArgument.py) — Order sensitivity in positional calls, explicit keyword arguments, `*args` variadic tuple packing, and call-site sequence unpacking `*list`.
+  - [variable_keywordArguments.py](file:///f:/CodePlayground/Python%20Workspace/variable_keywordArguments.py) — Arbitrary keyword arguments `**kwargs` dictionary packing, call-site dictionary unpacking `**dict`, default parameter values, and complete parameter precedence hierarchy.
+
+- [x] **Day 35 (22/10/2026): Variable Scope & Namespaces (Local vs Global)**
+  - [local_variable.py](file:///f:/CodePlayground/Python%20Workspace/local_variable.py) — Function-body local variables, parameter scoping, and variable shadowing under the LEGB resolution rule.
+  - [globel_variable.py](file:///f:/CodePlayground/Python%20Workspace/globel_variable.py) — Module-level global variables, modifying globals inside functions via `global` keyword, and multi-variable global declarations.
 
 ---
 
@@ -123,14 +166,14 @@ This document tracks the completed practice days, upcoming core Python learning 
 - [x] **For Loops & Ranges:** `for item in sequence`, `range(start, stop, step)`, reverse loops.
 - [x] **While Loops:** Conditional looping, counter increments, stepped increments, and negative bound traversal.
 - [x] **Loop Control Statements:** `break` (early exit), `continue` (skip iteration), `pass` (placeholder).
-- [ ] **Iterating Over Multi-Dimensional Data:** Looping over nested lists, dictionary `.items()`, `enumerate()`, `zip()`.
+- [x] **Iterating Over Multi-Dimensional Data:** Looping over nested lists, dictionary `.items()`, `enumerate()`, `zip()`.
 
 ### Phase 2: Functions & Functional Programming
-- [ ] **Function Fundamentals:** `def` keyword, docstrings, calling functions, parameters vs arguments.
-- [ ] **Argument Types:** Positional arguments, keyword arguments, default parameter values.
-- [ ] **Variable-Length Arguments:** Arbitrary positional arguments (`*args`), arbitrary keyword arguments (`**kwargs`).
-- [ ] **Return Statements:** Returning single values, multiple values (tuples), early returns.
-- [ ] **Variable Scope & Namespaces:** Local, Enclosing, Global, Built-in (LEGB rule), `global` and `nonlocal` keywords.
+- [x] **Function Fundamentals:** `def` keyword, docstrings, calling functions, parameters vs arguments.
+- [x] **Argument Types:** Positional arguments, keyword arguments, default parameter values.
+- [x] **Variable-Length Arguments:** Arbitrary positional arguments (`*args`), arbitrary keyword arguments (`**kwargs`).
+- [x] **Return Statements:** Returning single values, multiple values (tuples), early returns.
+- [x] **Variable Scope & Namespaces:** Local, Enclosing, Global, Built-in (LEGB rule), `global` and `nonlocal` keywords.
 - [ ] **Lambda Functions:** Anonymous inline functions, sorting with `key=lambda x: ...`.
 - [ ] **Higher-Order Functions:** Built-in `map()`, `filter()`, and `functools.reduce()`.
 

@@ -30,6 +30,19 @@ Welcome to my daily Python learning and practice journey! This repository docume
 | **Day 20** | 05/10/2026 | Conditional Expressions, `range()` Sequences & `for` Loops | `condition_expression.py`, `Range_example.py`, `for_loops.py` |
 | **Day 21** | 06/10/2026 | `while` Loops, Stepped Sequence Traversals & Execution Tracing | `while_loop.py`, `for_loops.py`, `Practice/` |
 | **Day 22** | 09/10/2026 | Loop Control Statements (`break`, `continue`, `pass`) | `break.py`, `continue.py`, `pass.py` |
+| **Day 23** | 10/10/2026 | Nested Loops & Multi-Level Iteration | `nestedForLoop.py` |
+| **Day 24** | 11/10/2026 | Loop 'else' Suite & Linear Search | `forelseBlock.py` |
+| **Day 25** | 12/10/2026 | Multi-Dimensional Lists & Traversal | `nested_List.py` |
+| **Day 26** | 13/10/2026 | Nested Dictionaries & Field Projections | `Nested_Dictionary.py` |
+| **Day 27** | 14/10/2026 | Columnar Data Structures (Dict of Lists) | `Dictionary_list.py` |
+| **Day 28** | 15/10/2026 | Row-Oriented Records (List of Dicts) | `ListInsideDict.py` |
+| **Day 29** | 16/10/2026 | Object Copying Semantics (Aliasing, Shallow & Deep Copy) | `Generalcopy.py`, `Shallowcopy.py`, `Deepcopy.py` |
+| **Day 30** | 17/10/2026 | Sequence Packing & Extended Unpacking | `packin.py`, `unpacking.py` |
+| **Day 31** | 18/10/2026 | Function Definitions, Execution Flow & Returns | `Function1.py` |
+| **Day 32** | 19/10/2026 | Positional Arguments & Function Redefining | `function3.py` |
+| **Day 33** | 20/10/2026 | Arithmetic Functions & Compound Returns | `function4..py` |
+| **Day 34** | 21/10/2026 | Positional vs Keyword Arguments, `*args` & `**kwargs` | `positionalArgument.py`, `variable_keywordArguments.py` |
+| **Day 35** | 22/10/2026 | Variable Scope & Namespaces (Local vs Global) | `local_variable.py`, `globel_variable.py` |
 
 ---
 
@@ -246,6 +259,115 @@ Welcome to my daily Python learning and practice journey! This repository docume
 
 ---
 
+### Day 23: Nested Loops & Multi-Level Iteration (10/10/2026)
+* > Cartesian Product Combinations with Nested `for` Loops (`nestedForLoop.py`)
+* > Generating Mathematical Multiplication Tables via Nested `range()` (`nestedForLoop.py`)
+* > Tokenization & Word Capitalization with `str.split()` and `str.capitalize()` (`nestedForLoop.py`)
+
+---
+
+### Day 24: The 'for-else' Loop Construct & Search Target Validation (11/10/2026)
+* > Linear Search with Target Absent: Triggering the `else` Suite without Flags (`forelseBlock.py`)
+* > Linear Search with Target Present: Short-Circuiting `else` via `break` (`forelseBlock.py`)
+
+---
+
+### Day 25: Multi-Dimensional Lists & Traversal (12/10/2026)
+* > Multi-Attribute Record Filtering in 2D Lists (`nested_List.py`)
+* > Reverse Row Traversal Using Negative-Step `range(2, -1, -1)` (`nested_List.py`)
+
+---
+
+### Day 26: Nested Dictionaries & Hierarchical Key-Value Processing (13/10/2026)
+* > Nested Dictionary Structure & Key Traversal via `.keys()` (`Nested_Dictionary.py`)
+* > Extracting Nested Dictionaries via `.values()` and Accessing Inner Keys (`Nested_Dictionary.py`)
+* > Accessing Inner Records via Dictionary Key Indexing (`company[e]`) (`Nested_Dictionary.py`)
+* > Field Projections: Extracting Specific Inner Keys Across All Records (`Nested_Dictionary.py`)
+* > Multi-Condition Filtering Across Nested Dictionary Attributes (`Nested_Dictionary.py`)
+
+---
+
+### Day 27: Columnar Data Layout (Dictionary Containing Lists) (14/10/2026)
+* > Columnar Data Structure & Key Traversal (`Dictionary_list.py`)
+* > Extracting Complete Column Value Lists (`Dictionary_list.py`)
+* > Accessing the First Element Across All Columns (`Dictionary_list.py`)
+* > Cross-Column Index-Based Querying & Dynamic Length Bounds (`range(len())`) (`Dictionary_list.py`)
+
+---
+
+### Day 28: Row-Oriented Records (List of Dictionaries) (15/10/2026)
+* > Row-Oriented Record Collection (List of Dictionaries) Iteration (`ListInsideDict.py`)
+* > Extracting Specific Attributes from Each Record (`ListInsideDict.py`)
+* > Reverse Record Traversal via Negative-Step `range()` (`ListInsideDict.py`)
+* > Reverse Sequence Slicing `[::-1]` on Record Lists (`ListInsideDict.py`)
+
+---
+
+### Day 29: Memory Referencing & Object Copying Semantics (16/10/2026)
+* > Variable Aliasing & Reference Assignment (`l2 = l1`) (`Generalcopy.py`)
+* > Shared Mutation Side Effects in General Aliasing (`Generalcopy.py`)
+* > Shallow Copy Creation with `copy.copy()`: Outer List Independence (`Shallowcopy.py`)
+* > Shallow Copy Limitations: Shared References to Nested Mutable Objects (`Shallowcopy.py`)
+* > Full Recursive Object Cloning via `copy.deepcopy()` (`Deepcopy.py`)
+* > Bidirectional Isolation Between Cloned Nested Structures (`Deepcopy.py`)
+
+---
+
+### Day 30: Sequence Packing & Extended Unpacking (17/10/2026)
+* > Explicit Manual Collection Packing into Lists (`packin.py`)
+* > Implicit Automatic Tuple Packing with Comma-Separated Literals (`packin.py`)
+* > Exact 1-to-1 Sequence Unpacking (`unpacking.py`)
+* > Extended Unpacking with Asterisk `*` at the Beginning (`*a, b, c, d`) (`unpacking.py`)
+* > Extended Unpacking with Asterisk `*` in the Middle (`a, *b, c, d`) (`unpacking.py`)
+* > Extended Unpacking with Asterisk `*` for Trailing Segments (`a, b, *c, d`) (`unpacking.py`)
+
+---
+
+### Day 31: Function Definition, Invocation & Execution Flow (18/10/2026)
+* > Function Declaration (`def`), `pass` Placeholder & Function Object vs Call (`Function1.py`)
+* > Reusability: Invoking Functions Multiple Times (`Function1.py`)
+* > Returning Values from Functions with `return` and Variable Assignment (`Function1.py`)
+* > Premature Exit via `return` & Unreachable (Dead) Code Execution Rules (`Function1.py`)
+
+---
+
+### Day 32: Positional Arguments & Function Redefining (19/10/2026)
+* > Required Positional Arguments & Handling Missing Argument `TypeError` (`function3.py`)
+* > Multi-Parameter Functions & Sequential Argument Binding (`function3.py`)
+* > Dynamic Function Redefinition & Namespace Overwriting in Python (`function3.py`)
+
+---
+
+### Day 33: Arithmetic Functions & Compound Computations (20/10/2026)
+* > Pure Mathematical Function Definition with Return Values (`function4..py`)
+* > Signed Difference Handling in Calculation Functions (`function4..py`)
+* > Multi-Operation Compound Functions (`add`, `sub`, `mul`) (`function4..py`)
+
+---
+
+### Day 34: Positional vs Keyword Arguments, '*args' & '**kwargs' (21/10/2026)
+* > Positional Argument Binding & Order Sensitivity Pitfalls (`positionalArgument.py`)
+* > Keyword Arguments (Named Arguments) Eliminating Order Dependencies (`positionalArgument.py`)
+* > Variable-Length Positional Arguments via `*args` Tuple Packing (`positionalArgument.py`)
+* > Call-Site Argument Unpacking with Asterisk `*list` (`positionalArgument.py`)
+* > Mixing Fixed Positional Parameters with Trailing `*args` (`positionalArgument.py`)
+* > Arbitrary Keyword Arguments (`**kwargs`) Dictionary Packing (`variable_keywordArguments.py`)
+* > Safe Defaults with Empty `**kwargs` Invocations (`variable_keywordArguments.py`)
+* > Dictionary Unpacking (`**dict`) into Keyword Parameters (`variable_keywordArguments.py`)
+* > Default Parameter Values & Flexible Argument Overrides (`variable_keywordArguments.py`)
+* > Complete Parameter Precedence Hierarchy (`positional`, `*args`, `default`, `**kwargs`) (`variable_keywordArguments.py`)
+
+---
+
+### Day 35: Variable Scope & Namespaces (Local vs Global) (22/10/2026)
+* > Local Variable Declaration & Lifecycle (Function Namespace Isolation) (`local_variable.py`)
+* > Function Parameters as Isolated Local Variables (`local_variable.py`)
+* > Variable Shadowing: Local Scope Precedence over Global Identifiers (`local_variable.py`)
+* > Modifying Module-Level Global Variables via `global` Keyword (`globel_variable.py`)
+* > Multi-Variable `global` Declarations in a Single Statement (`global a, b`) (`globel_variable.py`)
+
+---
+
 ## 📋 Progress Tracking & Practice Roadmap
 
 For the complete daily tracker, upcoming curriculum milestones, and practicing checklist, see [TODO.md](file:///f:/CodePlayground/Python%20Workspace/TODO.md).
@@ -292,4 +414,34 @@ python Practice/practice01.py
 python break.py
 python continue.py
 python pass.py
+
+# Example 10: Run Nested Loops & Multi-Dimensional Data practice
+python nestedForLoop.py
+python forelseBlock.py
+python nested_List.py
+python Nested_Dictionary.py
+python Dictionary_list.py
+python ListInsideDict.py
+
+# Example 11: Run Memory Referencing & Object Copying practice
+python Generalcopy.py
+python Shallowcopy.py
+python Deepcopy.py
+
+# Example 12: Run Sequence Packing & Unpacking practice
+python packin.py
+python unpacking.py
+
+# Example 13: Run Function Fundamentals & Arithmetic practice
+python Function1.py
+python function3.py
+python "function4..py"
+
+# Example 14: Run Advanced Function Arguments (*args, **kwargs) practice
+python positionalArgument.py
+python variable_keywordArguments.py
+
+# Example 15: Run Variable Scope & Namespaces practice
+python local_variable.py
+python globel_variable.py
 ```
