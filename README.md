@@ -43,6 +43,12 @@ Welcome to my daily Python learning and practice journey! This repository docume
 | **Day 33** | 20/10/2026 | Arithmetic Functions & Compound Returns | `function4..py` |
 | **Day 34** | 21/10/2026 | Positional vs Keyword Arguments, `*args` & `**kwargs` | `positionalArgument.py`, `variable_keywordArguments.py` |
 | **Day 35** | 22/10/2026 | Variable Scope & Namespaces (Local vs Global) | `local_variable.py`, `globel_variable.py` |
+| **Day 36** | 23/10/2026 | Function Aliasing, Higher-Order Functions & Nested Functions | `function_aliasing.py`, `HigherOrder_function.py`, `nested_function.py` |
+| **Day 37** | 26/10/2026 | Enclosing Scope, Nonlocal Variables & Function Closures | `enclosing_vriable.py`, `closure1.py` |
+| **Day 38** | 27/10/2026 | Function Decorators, Wrapper Architecture & `@decorator` Syntax | `Decorators.py`, `decorator2.py` |
+| **Day 39** | 28/10/2026 | Iterator Protocol (`iter`, `next`) & Generator Functions (`yield`) | `iterator.py`, `iterator2.py`, `generator.py` |
+| **Day 40** | 29/10/2026 | Anonymous Lambda Functions & Built-in `map()` Transformations | `lambda_Functions.py`, `mapFunction.py` |
+| **Day 41** | 30/10/2026 | Built-in `filter()`, `functools.reduce()` & List Comprehensions | `filterFunction.py`, `ReduceFunction.py`, `list_comprehension.py` |
 
 ---
 
@@ -368,9 +374,69 @@ Welcome to my daily Python learning and practice journey! This repository docume
 
 ---
 
+### Day 36: First-Class Functions: Aliasing, Higher-Order Functions & Nested Functions (23/10/2026)
+* > Function Aliasing & Assigning Function References to Variables (`function_aliasing.py`)
+* > Retaining Parameter Signatures and Return Values Across Function Aliases (`function_aliasing.py`)
+* > Higher-Order Functions: Passing Functions as Arguments & Callback Execution (`HigherOrder_function.py`)
+* > Polymorphic Workflow Runners via Reusable Callbacks (`HigherOrder_function.py`)
+* > Nested (Inner) Function Declarations & Local Scope Encapsulation (`nested_function.py`)
+
+---
+
+### Day 37: Enclosing Scope, Nonlocal Variables & Function Closures (26/10/2026)
+* > Enclosing Namespace Modification via the `nonlocal` Keyword (`enclosing_vriable.py`)
+* > Multi-Tier Scope Resolution: Combining `global` and `nonlocal` Keywords under LEGB (`enclosing_vriable.py`)
+* > State Persistence across Consecutive Inner Invocations (`enclosing_vriable.py`)
+* > Returning Nested Functions: The 3 Core Rules of Python Closures (`closure1.py`)
+* > Stateful Incrementing Accumulator Closure (`closure1.py`)
+* > Stateful Decrementing Countdown Closure (`closure1.py`)
+
+---
+
+### Day 38: Function Decorators, Wrapper Architecture & '@decorator' Syntax (27/10/2026)
+* > Fundamental Decorator Architecture: Outer Decorator, Inner Wrapper & Manual Decoration (`Decorators.py`)
+* > Parameterized Function Decoration: Forwarding Positional Arguments (`Decorators.py`)
+* > Variable-Length Arguments Support via `*args` Tuple Unpacking in Wrappers (`Decorators.py`)
+* > Standard Pythonic `@decorator` Syntactic Sugar with `*args` and `**kwargs` (`Decorators.py`)
+* > Universal Reusable Decorator Pattern across Multiple Function Signatures (`decorator2.py`)
+
+---
+
+### Day 39: Iterator Protocol ('iter', 'next') & Generator Functions ('yield') (28/10/2026)
+* > Iterator Protocol: Converting Iterables to Iterators via `iter()` & Manual Step Traversal via `next()` (`iterator.py`)
+* > State Retention Across Pauses & Loop Consumption over Iterators (`iterator.py`)
+* > Materializing Iterators into Concrete Collections (`tuple`, `list`) (`iterator.py`)
+* > Tuple Iterators & Complete Iterator Exhaustion Semantics (`iterator2.py`)
+* > Generator Functions: Contrasting Immediate `return` vs Resumable `yield` (`generator.py`)
+* > Step-by-Step Generator State Resumption & Lazy Sequence Production (`generator.py`)
+* > Stateful Multi-Step Calculations & List Materialization from Generators (`generator.py`)
+
+---
+
+### Day 40: Anonymous Functions ('lambda') & Built-in 'map()' Transformations (29/10/2026)
+* > Anonymous Functions (`lambda`): Syntax, Implicit Returns & Comparison with `def` (`lambda_Functions.py`)
+* > Immediately Invoked Function Expressions (IIFE) with Lambdas (`lambda_Functions.py`)
+* > Passing Lambdas into Custom Higher-Order Transformation Runners (`lambda_Functions.py`)
+* > Built-in `map()` Function Lifecycle & Lazy Evaluation (`mapFunction.py`)
+* > One-Liner List Mapping & Identity Transformation (`mapFunction.py`)
+* > Multi-Type Target Casting from `map` Iterators (`tuple`, `list`, `set`) (`mapFunction.py`)
+
+---
+
+### Day 41: Built-in 'filter()', 'functools.reduce()' & List Comprehensions (30/10/2026)
+* > Predicate-Based Filtering with Built-in `filter()` & Modulo Expressions (`filterFunction.py`)
+* > String Filtering: Word Length & Case-Insensitive Substring Queries (`filterFunction.py`)
+* > Cumulative Aggregation & Folding with `functools.reduce()` (Sum, Product, String Joining) (`ReduceFunction.py`)
+* > Declarative Functional Pipelines: Nesting `filter()` Inside `map()` (`ReduceFunction.py`)
+* > Basic List Comprehensions: `[expression for item in iterable]` (`list_comprehension.py`)
+* > Filtered List Comprehensions: Trailing `if` Predicates (`list_comprehension.py`)
+* > Branching List Comprehensions: Ternary `expr1 if cond else expr2` Transformations (`list_comprehension.py`)
+
+---
+
 ## 📋 Progress Tracking & Practice Roadmap
 
-For the complete daily tracker, upcoming curriculum milestones, and practicing checklist, see [TODO.md](file:///f:/CodePlayground/Python%20Workspace/TODO.md).
+For the complete daily tracker, upcoming curriculum milestones, and practicing checklist, see [TODO.md](file:///F:/DCL/Python%20Workspace/TODO.md).
 
 ---
 
@@ -444,4 +510,31 @@ python variable_keywordArguments.py
 # Example 15: Run Variable Scope & Namespaces practice
 python local_variable.py
 python globel_variable.py
+
+# Example 16: Run Function Aliasing & Higher-Order Functions practice
+python function_aliasing.py
+python HigherOrder_function.py
+python nested_function.py
+
+# Example 17: Run Enclosing Scope & Closures practice
+python enclosing_vriable.py
+python closure1.py
+
+# Example 18: Run Function Decorators practice
+python Decorators.py
+python decorator2.py
+
+# Example 19: Run Iterators & Generators practice
+python iterator.py
+python iterator2.py
+python generator.py
+
+# Example 20: Run Lambda Functions & Map Transformations practice
+python lambda_Functions.py
+python mapFunction.py
+
+# Example 21: Run Filter, Reduce & List Comprehensions practice
+python filterFunction.py
+python ReduceFunction.py
+python list_comprehension.py
 ```

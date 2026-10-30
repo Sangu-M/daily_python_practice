@@ -6,10 +6,10 @@ This document tracks the completed practice days, upcoming core Python learning 
 
 ## 📊 Quick Progress Summary
 
-- **Completed Days:** 35 / 35 Practiced Days
-- **Total Practiced Scripts:** 70 Python Modules (64 Core Modules + 6 Practice Deep Dive Modules)
-- **Current Topic Milestone:** Variable Scope & Namespaces (`local_variable.py`, `globel_variable.py`)
-- **Next Topic Milestone:** Lambda Functions & Anonymous Expressions, Higher-Order Functions (`map`, `filter`, `reduce`), List & Dict Comprehensions
+- **Completed Days:** 41 / 41 Practiced Days (Days 01 – 41: 11/09/2026 – 30/10/2026, synchronized up to 01/11/2026)
+- **Total Practiced Scripts:** 85 Python Modules (79 Core Modules + 6 Practice Deep Dive Modules)
+- **Current Topic Milestone:** Functional Programming & Comprehensions (`filterFunction.py`, `ReduceFunction.py`, `list_comprehension.py`)
+- **Next Topic Milestone:** Dictionary & Set Comprehensions, Exception Handling (`try-except`), File I/O (`open()`) & OOP Basics
 
 ---
 
@@ -152,8 +152,35 @@ This document tracks the completed practice days, upcoming core Python learning 
   - [variable_keywordArguments.py](file:///f:/CodePlayground/Python%20Workspace/variable_keywordArguments.py) — Arbitrary keyword arguments `**kwargs` dictionary packing, call-site dictionary unpacking `**dict`, default parameter values, and complete parameter precedence hierarchy.
 
 - [x] **Day 35 (22/10/2026): Variable Scope & Namespaces (Local vs Global)**
-  - [local_variable.py](file:///f:/CodePlayground/Python%20Workspace/local_variable.py) — Function-body local variables, parameter scoping, and variable shadowing under the LEGB resolution rule.
-  - [globel_variable.py](file:///f:/CodePlayground/Python%20Workspace/globel_variable.py) — Module-level global variables, modifying globals inside functions via `global` keyword, and multi-variable global declarations.
+  - [local_variable.py](file:///f:/DCL/Python%20Workspace/local_variable.py) — Function-body local variables, parameter scoping, and variable shadowing under the LEGB resolution rule.
+  - [globel_variable.py](file:///f:/DCL/Python%20Workspace/globel_variable.py) — Module-level global variables, modifying globals inside functions via `global` keyword, and multi-variable global declarations.
+
+- [x] **Day 36 (23/10/2026): First-Class Functions: Aliasing, Higher-Order Functions & Nested Functions**
+  - [function_aliasing.py](file:///f:/DCL/Python%20Workspace/function_aliasing.py) — Binding functions to new identifiers, retaining argument signatures and return values.
+  - [HigherOrder_function.py](file:///f:/DCL/Python%20Workspace/HigherOrder_function.py) — Functions taking functions as arguments, callback invocations, and generic execution runners.
+  - [nested_function.py](file:///f:/DCL/Python%20Workspace/nested_function.py) — Declaring helper functions inside parent functions and local namespace containment.
+
+- [x] **Day 37 (26/10/2026): Enclosing Scope, Nonlocal Variables & Function Closures**
+  - [enclosing_vriable.py](file:///f:/DCL/Python%20Workspace/enclosing_vriable.py) — Modifying outer variables via `nonlocal`, combining `global` and `nonlocal` under LEGB, and multi-invocation state persistence.
+  - [closure1.py](file:///f:/DCL/Python%20Workspace/closure1.py) — The 3 structural rules of closures, returning inner function references, and stateful incrementing/decrementing counters.
+
+- [x] **Day 38 (27/10/2026): Function Decorators, Wrapper Architecture & '@decorator' Syntax**
+  - [Decorators.py](file:///f:/DCL/Python%20Workspace/Decorators.py) — Outer decorator + inner wrapper anatomy, manual decoration, forwarding positional parameters, `*args` tuple handling, and `@packing` syntax with `*args` and `**kwargs`.
+  - [decorator2.py](file:///f:/DCL/Python%20Workspace/decorator2.py) — Generic reusable decorator boilerplate forwarding arbitrary signatures across multiple distinct functions (`f1`, `f2`, `f3`).
+
+- [x] **Day 39 (28/10/2026): Iterator Protocol ('iter', 'next') & Generator Functions ('yield')**
+  - [iterator.py](file:///f:/DCL/Python%20Workspace/iterator.py) — Creating iterator objects via `iter()`, lazy on-demand step retrieval with `next()`, memory persistence across pauses, and collection casting.
+  - [iterator2.py](file:///f:/DCL/Python%20Workspace/iterator2.py) — Tuple iterator traversal, complete iterator exhaustion semantics, and non-destructive casting of original collections.
+  - [generator.py](file:///f:/DCL/Python%20Workspace/generator.py) — Generator functions returning generator objects, pausing and resuming via `yield`, stateful multi-step calculations, and eager conversion to list.
+
+- [x] **Day 40 (29/10/2026): Anonymous Functions ('lambda') & Built-in 'map()' Transformations**
+  - [lambda_Functions.py](file:///f:/DCL/Python%20Workspace/lambda_Functions.py) — Single-expression anonymous functions, implicit returns, immediately invoked lambda expressions (IIFE), and passing lambdas into transformation callbacks.
+  - [mapFunction.py](file:///f:/DCL/Python%20Workspace/mapFunction.py) — Built-in `map()` lifecycle, element-wise transformations, identity mapping, and multi-type target casting (`tuple`, `list`, `set`).
+
+- [x] **Day 41 (30/10/2026): Built-in 'filter()', 'functools.reduce()' & List Comprehensions**
+  - [filterFunction.py](file:///f:/DCL/Python%20Workspace/filterFunction.py) — Predicate filtering with `filter()`, numeric modulo selection, and string length / substring containment checks.
+  - [ReduceFunction.py](file:///f:/DCL/Python%20Workspace/ReduceFunction.py) — Cumulative folding with `functools.reduce()`, sum/product reductions, and chaining `filter()` directly into `map()`.
+  - [list_comprehension.py](file:///f:/DCL/Python%20Workspace/list_comprehension.py) — Fast pythonic list comprehensions: basic mapping `[expr for item in seq]`, filtering clauses `[expr for item in seq if cond]`, and ternary branching `[x if cond else y for item in seq]`.
 
 ---
 
@@ -174,13 +201,13 @@ This document tracks the completed practice days, upcoming core Python learning 
 - [x] **Variable-Length Arguments:** Arbitrary positional arguments (`*args`), arbitrary keyword arguments (`**kwargs`).
 - [x] **Return Statements:** Returning single values, multiple values (tuples), early returns.
 - [x] **Variable Scope & Namespaces:** Local, Enclosing, Global, Built-in (LEGB rule), `global` and `nonlocal` keywords.
-- [ ] **Lambda Functions:** Anonymous inline functions, sorting with `key=lambda x: ...`.
-- [ ] **Higher-Order Functions:** Built-in `map()`, `filter()`, and `functools.reduce()`.
+- [x] **Lambda Functions:** Anonymous inline functions, sorting with `key=lambda x: ...`.
+- [x] **Higher-Order Functions:** Built-in `map()`, `filter()`, and `functools.reduce()`.
 
 ### Phase 3: Comprehensions & Advanced Data Techniques
-- [ ] **List Comprehensions:** `[expression for item in iterable if condition]`.
+- [x] **List Comprehensions:** `[expression for item in iterable if condition]`.
 - [ ] **Dictionary & Set Comprehensions:** `{k: v for ...}`, `{x for ...}`.
-- [ ] **Generator Expressions & Generators:** `yield` keyword, memory-efficient streaming of large sequences.
+- [x] **Generator Expressions & Generators:** `yield` keyword, memory-efficient streaming of large sequences.
 
 ### Phase 4: Error Handling & File I/O
 - [ ] **Exception Handling:** `try`, `except`, `else`, `finally` blocks.
