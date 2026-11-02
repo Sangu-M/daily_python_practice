@@ -49,6 +49,7 @@ Welcome to my daily Python learning and practice journey! This repository docume
 | **Day 39** | 28/10/2026 | Iterator Protocol (`iter`, `next`) & Generator Functions (`yield`) | `iterator.py`, `iterator2.py`, `generator.py` |
 | **Day 40** | 29/10/2026 | Anonymous Lambda Functions & Built-in `map()` Transformations | `lambda_Functions.py`, `mapFunction.py` |
 | **Day 41** | 30/10/2026 | Built-in `filter()`, `functools.reduce()` & List Comprehensions | `filterFunction.py`, `ReduceFunction.py`, `list_comprehension.py` |
+| **Day 42** | 02/11/2026 | Dictionary Comprehensions & Multi-Iterable Pairing (`zip()`) | `Dictionary_comprehension.py`, `Zip_function.py` |
 
 ---
 
@@ -434,6 +435,18 @@ Welcome to my daily Python learning and practice journey! This repository docume
 
 ---
 
+### Day 42: Dictionary Comprehensions & Multi-Iterable Pairing ('zip') (02/11/2026)
+* > Basic Dictionary Comprehension: One-Line `{key: val}` Mappings from Iterables (`Dictionary_comprehension.py`)
+* > Substring Slicing in Values: Length Subtraction (`len(i)-3`) vs Pythonic Negative Indexing (`[-3::]`) (`Dictionary_comprehension.py`)
+* > Filtered Dictionary Comprehensions: Trailing `if` Predicates with Modulo, `.endswith()`, and `in` Membership (`Dictionary_comprehension.py`)
+* > Conditional Value Transformation: Inline Ternary `expr1 if cond else expr2` for Scores & Existing Dict `.items()` (`Dictionary_comprehension.py`)
+* > Built-in `zip()` Lifecycle: Lazy Iterator Object & Manual Step Consumption with `next()` (`Zip_function.py`)
+* > Multi-Collection Grouping: Truncation at Shortest Sequence Length & Materializing Tuples with `list()` (`Zip_function.py`)
+* > Lockstep Parallel Iteration: Direct Tuple Traversal with `for` Loop (`Zip_function.py`)
+* > Combining `zip()` with Dictionary Comprehension: Direct Key-Value Pair Generation & Ternary Grading (`Zip_function.py`)
+
+---
+
 ## 📋 Progress Tracking & Practice Roadmap
 
 For the complete daily tracker, upcoming curriculum milestones, and practicing checklist, see [TODO.md](file:///F:/DCL/Python%20Workspace/TODO.md).
@@ -537,4 +550,8 @@ python mapFunction.py
 python filterFunction.py
 python ReduceFunction.py
 python list_comprehension.py
+
+# Example 22: Run Dictionary Comprehensions & Zip Function practice
+python Dictionary_comprehension.py
+python Zip_function.py
 ```

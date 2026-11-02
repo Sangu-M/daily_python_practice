@@ -60,3 +60,29 @@ print(tuple(filter(lambda i: "a" in i.lower(), l1)))
 # Result: ('Alex', 'Carrison', 'Richard', 'Zaraki') (idiomatic case-insensitive match)
 
 print("--------------------------------------------------")
+
+# ------------------------------------------------------------------------------
+# 3. Quick Review: Dictionary Item Removal ('popitem()' vs 'pop()')
+# Syntax: dict.popitem() | dict.pop(key)
+# • What is it for:
+#   Removing key-value pairs from dictionaries: removing the last inserted item
+#   via LIFO order with `popitem()` or targeting a specific key via `pop(key)`.
+# • What it does:
+#   - Defines dictionary `d = {10: 1, 20: 2, 30: 3}`.
+#   - `d.popitem()` removes and returns the last (key, value) tuple: `(30, 3)`.
+#   - `d.pop(10)` removes key 10 and returns its mapped value: `1`.
+#   - Remaining dictionary is `{20: 2}`.
+# • Where it is used:
+#   Undo operations, cache eviction, and processing work queues stored in dictionaries.
+# • Key Takeaway:
+#   `popitem()` removes the last item and returns a `(key, value)` tuple; `pop(k)` returns only the value.
+# ------------------------------------------------------------------------------
+d = {
+    10: 1,
+    20: 2,
+    30: 3
+}
+print(d.popitem())  # Result: (30, 3) (removes last inserted key-value pair as a tuple)
+print(d.pop(10))    # Result: 1 (removes key 10 and returns its associated value)
+print(d)            # Result: {20: 2} (remaining dictionary)
+
